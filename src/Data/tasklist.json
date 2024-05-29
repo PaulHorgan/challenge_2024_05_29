@@ -1,0 +1,23 @@
+{
+   "tasks": [
+    {"title" : "Make Dinner", 
+    "description" : "Light the BBQ, cook Pork and Veg",
+    "imageUrl": "https://hot-thai-kitchen.com/wp-content/uploads/2018/10/Untitled-design-24.jpg",
+    "estTime": 29,
+    "Difficulty" :"Medium"
+    },
+    {"title" : "Clean BBQ", 
+    "description" : "Burn off food and scrape it clean",
+    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/cleaning-a-grill-male-hand-with-gloves-cleans-round-royalty-free-image-1586090681.jpg",
+    "estTime": 17,
+    "Difficulty" :"Easy"
+    },
+    {"title" : "Smoke Brisket", 
+    "description" : "Light BBQ for smoking, keep at 225f for around 16 hours - rest and eat",
+    "imageUrl": "https://www.seriouseats.com/thmb/Xw4SiFm0tVWgRKiVwOTSGDRRv4Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20091022-smoked-brisket-84f2ec846d5b4d6899335a07cc4a4b54.jpg",
+    "estTime": 960,
+    "Difficulty" :"Solid"
+    }
+]}
+
+
