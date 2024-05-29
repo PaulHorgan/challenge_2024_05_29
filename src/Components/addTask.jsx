@@ -12,14 +12,21 @@ export default function AddNewTask() {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        const task = {title, description, imageUrl, estTime }
-
+        const task = {title, description, imageUrl, estTime, difficulty }
+        alert("Are you sure you want to add this task")
         fetch("http://localhost:3000/tasklist", 
         {
             method: 'POST',
             headers: {"Content-Type" : "application/json"},
             body: JSON.stringify(task)
         })
+
+        setTitle("");
+        setDescription("");
+        setImageUrl(""); 
+        setEstTime(""); 
+        setDifficulty("");
+
 
     }
 
@@ -43,12 +50,10 @@ export default function AddNewTask() {
                     Choose Difficulty rating <select required
                     value={difficulty}
                     onChange={(e) => setDifficulty(e.target.value)}>
-                        <ul>
-                            <li>Easy</li>
-                            <li>Medium</li>
-                            <li>Hard</li>
-                            <li>Solid</li>
-                        </ul>
+                       <option> Easy </option>
+                       <option> Medium </option>
+                       <option> Hard </option>
+                       <option> Solid </option>
                     </select><div />
                     <button>Click to Submit</button>
                 </form>              
